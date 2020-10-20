@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif, Arial;
+}
+p {
+    font-size: 14px;
+}
+main {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.container-up, .container-down {
+    display: flex;
+    flex-direction: row;
+}
+.container-up {
+    margin-top: 160px;
+    align-items: flex-end;
+}
+.container-down {
+    align-items: flex-start;
+}
+.column {
+    text-align: center;
+}
+.item {
+    width: 180px;
+    padding: 30px 0;
+    background-color: rgb(61, 51, 51);
+    color: #fff;
+}
+.item i {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.item-first {
+    height: 120px;
+}
+.item-second {
+    height: 140px;
+}
+.item-third {
+    height: 160px;
+}
+.item-fourth {
+    height: 180px;
+}
+.item-fifth {
+    height: 200px;
+}
+.item-sixth {
+    height: 220px;
+}
+.item-down {
+    width: 180px;
+    padding: 30px;
+    border-right: 1px solid #000;
+}
+.selected {
+    background-color: #b38600;
+    position: relative;
+}
+.selected::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0d7";
+    position: absolute;
+    display: block;
+    top: -180px;
+    left: 33px;
+    color: #b38600;
+    font-size: 180px;
+}
+.button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+form input {
+    height: 25px;
+}
+.legend {
+    margin-top: 20px;
+    line-height: 1.2;
+}
+.legend h4 {
+    margin-bottom: 10px;
+}
+.legend p span {
+    font-weight: 700;
+}

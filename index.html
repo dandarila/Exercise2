@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="container-up">
+            <div class="column">
+                <span>0</span>
+                <div class="item item-first">
+                    <i class="fas fa-exclamation"></i>
+                    <p>Not Ready</p>
+                </div>
+            </div>
+            <div class="column">
+                <span>1</span>
+                <div class="item item-second">
+                    <i class="fas fa-lock"></i>
+                    <p>Aware to some degree</p>
+                </div>
+            </div>
+            <div class="column">
+                <span>2</span>
+                <div class="item item-third">
+                    <i class="fas fa-arrow-circle-down"></i>
+                    <p>Supportive</p>
+                </div>
+            </div>
+            <div class="column">
+                <span>3</span>
+                <div class="item item-fourth">
+                    <i class="far fa-square"></i>
+                    <p>Engaged</p>
+                </div>
+            </div>
+            <div class="column">
+                <span>4</span>
+                <div class="item item-fifth">
+                    <i class="fas fa-sync-alt"></i>
+                    <p>Ageing-leveraged</p>
+                </div>
+            </div>
+            <div class="column">
+                <span>5</span>
+                <div class="item item-sixth">
+                    <i class="fas fa-chess-queen"></i>
+                    <p>Strategic Asset</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-down">
+            <div class="item-down">
+                <p>Topic not on the agenda</p>
+            </div>
+            <div class="item-down">
+                <p>No sistematic action taken</p>
+            </div>
+            <div class="item-down">
+                <p>Our initiatives are focused on adressing and supporting the age management chalenges</p>
+            </div>
+            <div class="item-down">
+                <p>Demonstrate enthusiasm and commitment about business benefits. Policies and some HR operations processes have been adjusted</p>
+            </div>
+            <div class="item-down">
+                <p>Deep understanding of what it takes to make change happen. Can inspire and effectivelly communicate to all. Real culture change includes change of all HR policies and HR operations processes</p>
+            </div>
+            <div class="item-down">
+                <p>Age management is a strategic asset for your growth, innovation and performance. Active age management fosters all aspects of the employee life cycle</p>
+            </div>
+        </div>
+
+        <form action="#">
+            <input type="text" id="level" value>
+            <button class="button" onClick="select()">Verifica</button>
+        </form>
+
+        <div class="legend">
+            <h4>Legenda*:</h4>
+            <p><span>Nivel 0:</span> 0 <= punctaj < 10</p>
+            <p><span>Nivel 1:</span> 10 <= punctaj < 20</p>
+            <p><span>Nivel 2:</span> 20 <= punctaj < 30</p>
+            <p><span>Nivel 3:</span> 30 <= punctaj < 40</p>
+            <p><span>Nivel 4:</span> 40 <= punctaj < 50</p>
+            <p><span>Nivel 5:</span> 50 <= punctaj < 60</p>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/8ea9968be2.js" crossorigin="anonymous"></script>
+    <script src="select.js"></script>
+</body>
+</html>
